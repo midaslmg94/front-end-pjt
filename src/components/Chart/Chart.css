@@ -1,0 +1,31 @@
+.ChartList {
+    text-align: center;
+}
+
+.ChartMenuTitle {
+    width: 10rem;
+    border: 5rem, 5rem, 5rem, 5rem;
+    border-color: whitesmoke;
+    border-style: groove;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+
+.ChartMenuList {
+    font-size: 16px;
+    text-align: left;
+    width: 9.5rem;
+}
+
+.Logo {
+    text-align: center;
+}
+
+.Pagi {
+    margin-top: 5rem;
+    margin-left: 50rem;
+}
+
+.Pagi > li > a {
+    float: none;
+}
