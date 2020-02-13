@@ -1,0 +1,19 @@
+
+.menu ul {
+    margin: 0; padding: 0; list-style: none;
+}
+.menu li { 
+    float: left; width: auto;  
+}
+.menu li a { 
+     padding: 5px 20px; color: #000; text-decoration: none;     
+}
+.menu { 
+    background: limegreen; text-align: center;
+}
+.menu a:first {
+    margin-left: 500;
+}
+header {
+    width:200px; left:0; right:0; margin-left:auto; margin-right:auto;
+}
