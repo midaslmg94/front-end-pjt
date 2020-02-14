@@ -11,11 +11,7 @@ class Support extends Component {
                 <MainBar/>
                 <div className="Align">
                     <SideBar/>
-                    <div className="Align">
-                        <SupportCard/>
-                        <SupportCard/>
-                        <SupportCard/>
-                    </div>
+                    <SupportCard/>
                 </div>
             </div>
         );

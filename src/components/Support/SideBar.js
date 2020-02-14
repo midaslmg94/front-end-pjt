@@ -5,20 +5,14 @@ import './SideBar.css';
 class SideBar extends React.Component {
     render() {
         return (
-            <div className="SideBar">
-                <img src="wing.png" witch="100px" height="100px"></img>
+            <div className="SideBar" width>
+                <img src="로고.png" witdh="100px" height="100px"></img>
                 <Nav tabs vertical>
                     <NavItem>
-                        <NavLink>진행중인 후원</NavLink>
+                        <NavLink href="#">진행중인 후원</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink>마감된 후원</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink>Another Link</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink>Disabled Link</NavLink>
+                        <NavLink href="#">마감된 후원</NavLink>
                     </NavItem>
                 </Nav>
                 <hr/>
