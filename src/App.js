@@ -1,18 +1,17 @@
 import React, { Component, Fragment } from 'react';
-import MainTemplate from './components/MainTemplate';
-import { Button } from 'reactstrap'
-import Example from './components/Example';
 import './App.css';
+import MainTab from './components/MainTab';
+
+
 
 class App extends Component {
   render(){
     return(
       <Fragment>
-        <MainTemplate></MainTemplate>
-        <div> <Button color="primary">로그인</Button>{''} </div>
-        <div className="hc" className="vc">
-          <Example></Example>
-        </div>
+        <header><img width="140px" src="/로고.png" alt="이미지깨짐"></img></header>  
+        <MainTab></MainTab>
+        
+               
         
       </Fragment>
     );
